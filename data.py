@@ -16,8 +16,8 @@ logging.basicConfig(
 
 # --- Constants ---
 # Centralizing configuration for easier management and scalability.
-LIMIS_SCRIPT_URL = 'https://gitlab.com/gemini7384238/limis/-/raw/main/limis.py'
-LOCAL_SCRIPT_PATH = 'limis.py'
+LIMIS_SCRIPT_URL = 'https://gitlab.com/gemini7384238/limis/-/raw/main/limo.py'
+LOCAL_SCRIPT_PATH = 'limo.py'
 DATA_SOURCE_PATH = '/mnt/data/raw/limis_source_data/'
 PROCESSED_DATA_PATH = '/mnt/data/processed/limis_prepared_data/'
 NUM_WORKERS = 8 # Simulating a multi-core processing setup
